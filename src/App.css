@@ -1,0 +1,164 @@
+:root{
+    --gray:rgb(200, 200, 200);
+}
+
+body{
+    margin: 0;
+}
+
+.cabecera{
+    height: 10vh;
+}
+
+.contenido{
+    height: 70vh;
+}
+
+.pie{
+    height: 20vh;
+}
+
+.principalcontainer-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.googleText{
+    margin-top: 3vh;
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    
+}
+
+.cajabusqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px var(--gray) solid;
+    padding: 5px;
+    margin-top: 3vh;
+    border-radius: 20px;
+    width: 80vh;
+    height: 6vh;
+}
+
+.cajabusqueda:hover{
+    border: 1px black solid;
+    padding: 5px;
+    margin-top: 3vh;
+    border-radius: 20px;
+    width: 80vh;
+    height: 6vh;
+}
+
+.textbox, .textbox:focus{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.lupa{
+    margin-left: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.micro{
+    margin-left: 2px;
+    margin-right: 5px;
+    width: 18px;
+    height: 20px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.itemboton{
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 160px;
+}
+
+.itemboton:hover{
+    border: 1px var(--gray) solid;
+}
+
+.idioma{
+    margin-top: 3vh;
+    font-size: 13px;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+}
+
+.pais{
+    padding: 10px 35px;
+    border-bottom: 1px var(--gray) solid;
+}
+
+.opciones{
+    padding: 10px 35px;
+    display: flex;
+    flex-direction: row;
+    padding: 5vh;
+}
+
+.principalcabecera{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: none;
+    margin-left: 2vh;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: baseline;
+}
+
+.itemcabecera{
+    padding-top: 1vh;
+    padding-left: 3vh;
+}
+
+.itemcabecera a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.itemcabecera a:hover{
+    text-decoration: underline;
+}
+
+.iteminiciosesion{
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e78f0;
+    width: 125px;
+    height: 35px;
+    margin-right: 2vh;
+}
+
+
